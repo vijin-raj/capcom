@@ -1,0 +1,21 @@
+.calendar-style{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.react-calendar__tile {
+  width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  line-height: 20px;
+}
+
+.react-calendar__tile--active {
+  background: rgba(8, 29, 220, 0.441);
+  color: #b82ebb;
+}
+.highlight {
+  color: #b82ebb;
+}
